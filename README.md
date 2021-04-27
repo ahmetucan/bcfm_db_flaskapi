@@ -8,13 +8,13 @@
 
  Build image from base image :
 
-    Docker image build -t ahmetucan/mysql-flask-api  .
+    Docker image build -t ahmetucan/flask_api_con  .
     
 # Run a Container:
 
-    Dockercontainer run -p 80:5000 ahmetucan/mysql-flask-api
+    Dockercontainer run -p 80:5000 ahmetucan/flask_api_con
 
 # Push an Image:
-    Docker push ahmetucan/mysqldb_flask_api
+    Docker push ahmetucan/flask_api:base-image
     
-    Docker push ahmetucan/mysql-flask-api
+    Docker push ahmetucan/flask_api_con
