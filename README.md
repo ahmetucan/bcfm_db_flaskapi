@@ -4,7 +4,7 @@
 
 # Build base image :
 
-    Docker image build -f Dockerfile.base -t ahmetucan/mysqldb_flask_api:base-image  .
+    Docker image build -f Dockerfile.base -t ahmetucan/flask_api:base-image  .
 
  Build image from base image :
 
