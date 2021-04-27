@@ -1,6 +1,5 @@
 from mysql.connector import errorcode
 import mysql.connector
-import pymysql
 import os
 import configparser
 import logging
@@ -29,7 +28,7 @@ def connect():
 def select():
     try:
         mysqldb = connect()
-        cursor = mysqldb.cursor(pymysql.cursors.DictCursor)
+        cursor = mysqldb.cursor(buffered=True)
         query = f"SELECT * FROM {config['MYSQL']['mysql_database']}.{config['MYSQL']['mysql_table']};"
         cursor.execute(query)
         response= jsonify(cursor.fetchall())
@@ -112,7 +111,7 @@ def delete():
     return('SUCCES!')
 
 if __name__ == "__main__":
-    app.run(host=config['API SERVER']['odev_host'], port=config['API SERVER']['odev_port'], debug=True)
+    app.run(host=config['API SERVER']['odev_host'], port=config['API SERVER']['odev_port'], debug=False)
 
 
 

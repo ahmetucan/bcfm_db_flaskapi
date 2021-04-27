@@ -554,3 +554,38 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 911-593-924
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [24/Apr/2021 15:35:31] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 911-593-924
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2021 16:31:28] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Apr/2021 16:31:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 911-593-924
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:03:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:03:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:04:07] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:07:47] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:22:03] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:31:20] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:31:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:47:50] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:48:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:48:34] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:48:41] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:48:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2021 16:54:53] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 00:22:41] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 00:22:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 00:25:10] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 00:25:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 07:50:08] "[37mGET /Select HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 07:50:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 07:52:19] "[31m[1mPOST /Insert HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 07:53:02] "[37mPOST /Insert HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Apr/2021 07:53:07] "[37mGET /Select HTTP/1.1[0m" 200 -

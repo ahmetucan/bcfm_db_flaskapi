@@ -1,4 +1,4 @@
-FROM ahmetucan/mysqldb_flask_api:base-image
+FROM ahmetucan/flask_api:base-image
 WORKDIR /app
 COPY . .
 EXPOSE 5000
